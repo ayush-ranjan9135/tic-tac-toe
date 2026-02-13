@@ -1,96 +1,108 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Tic Tac Toe - Android App</title>
-</head>
-<body>
+<h1 align="center">🎮 Tic Tac Toe - Android Game</h1>
 
-    <h1>🎮 Tic Tac Toe - Android Game</h1>
+<p align="center">
+  A simple and interactive <b>Tic Tac Toe Android Game</b> built using Kotlin and Android Studio.
+</p>
 
-    <p>
-        Tic Tac Toe is a simple and interactive Android game built using 
-        <strong>Kotlin</strong> and <strong>Android Studio</strong>. 
-        The game allows two players to play on the same device with a clean and user-friendly interface.
-    </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Language-Kotlin-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+</p>
 
-    <hr>
+<hr>
 
-    <h2>🚀 Features</h2>
-    <ul>
-        <li>✔️ Two-player mode</li>
-        <li>✔️ Real-time game result detection</li>
-        <li>✔️ Winner announcement</li>
-        <li>✔️ Restart game option</li>
-        <li>✔️ Simple and responsive UI</li>
-    </ul>
+<h2>📌 About The Project</h2>
 
-    <hr>
+<p>
+This is a classic <b>Tic Tac Toe (X & O)</b> game application developed for Android devices.  
+The game allows two players to play on the same device with smooth UI interaction and simple game logic.
+</p>
 
-    <h2>🛠️ Technologies Used</h2>
-    <ul>
-        <li><strong>Kotlin</strong> – Programming Language</li>
-        <li><strong>Android Studio</strong> – Development Environment</li>
-        <li><strong>XML</strong> – UI Design</li>
-        <li><strong>Gradle</strong> – Build System</li>
-    </ul>
+<hr>
 
-    <hr>
+<h2>✨ Features</h2>
 
-    <h2>📂 Project Structure</h2>
-    <pre>
+<ul>
+  <li>🎯 Two-player mode</li>
+  <li>🔄 Reset game option</li>
+  <li>🏆 Winner detection logic</li>
+  <li>📱 Responsive UI</li>
+  <li>⚡ Lightweight and fast performance</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ Built With</h2>
+
+<ul>
+  <li><b>Kotlin</b> - Programming Language</li>
+  <li><b>Android Studio</b> - IDE</li>
+  <li><b>XML</b> - UI Design</li>
+  <li><b>Gradle</b> - Build System</li>
+</ul>
+
+<hr>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
 tic-tac-toe/
 │
-├── app/                  Main application code
-├── gradle/               Gradle configuration
-├── build.gradle.kts      Project build file
-├── settings.gradle.kts   Project settings
-├── gradlew               Gradle wrapper
-├── tictactoe.apk         APK file
-└── .gitignore
-    </pre>
+├── app/                 # Main Android source code
+├── gradle/              # Gradle build files
+├── build.gradle.kts     # Project build configuration
+├── settings.gradle.kts  # Project settings
+├── tictactoe.apk        # Generated APK file
+</pre>
 
-    <hr>
+<hr>
 
-    <h2>▶️ How to Run</h2>
-    <ol>
-        <li>Clone the repository from GitHub.</li>
-        <li>Open the project in Android Studio.</li>
-        <li>Sync Gradle files.</li>
-        <li>Run the app on an emulator or physical device.</li>
-    </ol>
+<h2>▶️ How to Run</h2>
 
-    <hr>
+<ol>
+  <li>Clone the repository:</li>
+</ol>
 
-    <h2>📱 APK File</h2>
-    <p>
-        You can directly install the provided <strong>tictactoe.apk</strong> file on your Android device.
-    </p>
+<pre>
+git clone https://github.com/ayush-ranjan9135/tic-tac-toe.git
+</pre>
 
-    <hr>
+<ol start="2">
+  <li>Open the project in <b>Android Studio</b>.</li>
+  <li>Build and run the app on emulator or physical device.</li>
+</ol>
 
-    <h2>📌 Learning Purpose</h2>
-    <p>
-        This project was created to practice:
-    </p>
-    <ul>
-        <li>Android Activity lifecycle</li>
-        <li>Event handling (Button clicks)</li>
-        <li>Game logic implementation</li>
-        <li>UI designing using XML</li>
-    </ul>
+<hr>
 
-    <hr>
+<h2>📱 APK File</h2>
 
-    <h2>👨‍💻 Author</h2>
-    <p>
-        <strong>Ayush Ranjan</strong><br>
-        GitHub: <a href="https://github.com/ayush-ranjan9135" target="_blank">
-        https://github.com/ayush-ranjan9135</a>
-    </p>
+<p>
+You can directly install the game using the provided <b>tictactoe.apk</b> file.
+</p>
 
-    <hr>
+<hr>
 
-    <p>⭐ If you like this project, feel free to give it a star!</p>
+<h2>🚀 Future Improvements</h2>
 
-</body>
-</html>
+<ul>
+  <li>🤖 Add AI (Single Player Mode)</li>
+  <li>🌙 Dark Mode</li>
+  <li>🎨 Improved UI animations</li>
+  <li>📊 Scoreboard feature</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 Author</h2>
+
+<p>
+<b>Ayush Ranjan</b><br>
+GitHub: <a href="https://github.com/ayush-ranjan9135">ayush-ranjan9135</a>
+</p>
+
+<hr>
+
+<p align="center">
+  ⭐ If you like this project, don't forget to give it a star!
+</p>
